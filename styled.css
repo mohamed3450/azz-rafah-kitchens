@@ -23,9 +23,8 @@ display: flex;
 align-items: center;
 }
 .img-logo{
-
 height: 70 px;
-width: auto;
+width: 50 px;
 margin: 5 px;
 padding: 2 px;
 }
