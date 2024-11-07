@@ -83,7 +83,7 @@ animation: expand 1.5s infinite alternate;
 }
 @keyframes expand {
 0% { width: 0; }
-100% { width: 190%; }
+100% { width: 100%; }
 }
 .home{
 background-image: url(MMM.png);
@@ -93,11 +93,11 @@ height: 769px;
 .landing{
 margin: 55px;
 color:rgba(255, 187, 0, 0.479) ;
-text-align: center;}
+text-align: center;
+}
 .landing h2{
+margin: 10px;
 
-margin: 150px;
-padding: 20px;
 font-size: 24px;
 margin-bottom: 5px;
 }
@@ -118,7 +118,7 @@ transition: 0.5s;
 }
 .cards{
 text-align: center;
-margin: 5px;
+max-width: 100vh;
 display: flex;
 flex-wrap: wrap;
 align-items: center;
